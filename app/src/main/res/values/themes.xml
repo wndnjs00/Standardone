@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!--parentf를 Theme.AppCompat.Light 얘로 변경시켜줘야 버튼배경 적용됨-->
+    <style name="Base.Theme.Standardone" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+
+
+        <!--엑션바 없애기-->
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+    <style name="Theme.Standardone" parent="Base.Theme.Standardone" />
+</resources>
