@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="Welcome Back"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing\nelit.Diam maecenas mi non sed ut odio. Non, justo,\nsed facilisi et."
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_title_tv" />
@@ -51,7 +52,6 @@
         android:id="@+id/password_et"
         android:layout_width="350dp"
         android:layout_height="60dp"
-        android:layout_marginTop="15dp"
         android:background="@drawable/eidttext_radius_gray"
         android:elevation="5dp"
         android:inputType="text"
@@ -59,21 +59,23 @@
         android:textAllCaps="false"
         android:textColor="#666161"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/email_et"
-        app:layout_constraintStart_toStartOf="@+id/email_et"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_et" />
 
+
     <TextView
-        android:id="@+id/password_tv"
+        android:id="@+id/forgotpw_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot Password ?"
         android:textColor="#2D2626"
         android:textSize="15sp"
         android:textStyle="bold"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="@+id/password_et"
         app:layout_constraintTop_toBottomOf="@+id/password_et" />
-
 
 
 
