@@ -54,7 +54,7 @@
         android:background="@drawable/eidttext_radius_gray"
         android:elevation="5dp"
         android:inputType="text"
-        android:text="textPassword"
+        android:text=" textPassword"
         android:textAllCaps="false"
         style="@style/EditText"
         android:layout_marginTop="13dp"
